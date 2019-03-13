@@ -1,9 +1,9 @@
-﻿Module Module1
+Module Module1
 
     Sub Main()
 
-        'Dim numbers As Integer() = {10, 9, 8, 7, 6, 5, 4, 3, 2, 1}
-        Dim numbers As Integer() = {1, 2, 3, 4, 5, 6, 7, 8, 19, 10}
+        ' Dim numbers As Integer() = {10, 9, 8, 7, 6, 5, 4, 3, 2, 1}
+        Dim numbers As Integer() = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
 
         Dim i, j, t As Integer
         i = 0
@@ -35,8 +35,7 @@
 
         Next
 
-
-        Console.WriteLine(i)
+        Console.WriteLine("Number of changes: " & i)
 
         For i = 0 To 9
             Console.Write(numbers(i) & " ")
